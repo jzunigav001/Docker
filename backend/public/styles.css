@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+}
+h1 {
+    color: #FFD700;
+}
+#movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.movie-card {
+    background: #333;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: left;
+}
