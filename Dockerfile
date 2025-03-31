@@ -1,8 +1,9 @@
 FROM php:8.0-apache
 
 WORKDIR /var/www/html
+COPY backend/public/ /var/www/html/
 COPY backend/ /var/www/html/
-COPY public/ /var/www/html/
+
 
 
 # Instalar extensiones necesarias para MySQL
